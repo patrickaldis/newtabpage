@@ -44,7 +44,7 @@ var data = {
 
     // -------------------------------------------------
     // Enable/disable site icons
-    enable_icons: false,
+    enable_icons: true,
     links_hover: true,
 
     // -------------------------------------------------
