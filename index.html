@@ -1,56 +1,62 @@
 <!DOCTYPE html>
 <html lang="us">
-	<head>
-		<title>New Tab</title>
-		<meta charset="utf-8"/>
-		<meta name="viewport" content="width=device-width, initial-scale=1.0">
-		<meta name="theme-color" content="#79acf3">
 
-		<link rel="stylesheet" type="text/css" href="style.css">
-		<link rel="icon" type="image/svg+xml" class="favicon" href="./favicon.svg">
-		<link rel="preconnect" href="https://fonts.gstatic.com">
-		<link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap" rel="stylesheet"> 
-		
-		<script src="./config.js"></script>
-	</head>
-	<body>
-		<div class="column-container">
-			<div class="left">
-				<img id="cover">
+<head>
+	<title>New Tab</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta name="theme-color" content="#79acf3">
+
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="icon" type="image/svg+xml" class="favicon" href="./favicon.svg">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link
+		href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,900&display=swap"
+		rel="stylesheet">
+
+	<script src="./config.js"></script>
+</head>
+
+<body>
+	<div class="column-container">
+		<div class="left">
+			<img id="cover">
+		</div>
+
+		<div class="right">
+			<div id="greetings"></div>
+			<div class="search_box">
+				<form id="search" method="get">
+					<input id="input_box" class="input_box" type="text" name="q" autocomplete="off" />
+				</form>
 			</div>
-
-			<div class="right">
-				<div id="greetings"></div>
-				<div class="search_box">
-					<form id="search" method="get">
-					<input id="input_box" class="input_box" type="text" name="q" autocomplete="off"/>
-					</form>
+			<div class="container">
+				<div class="column">
+					<p>Work</p>
+					<a class="link" href="https://github.com/hackworthltd/primer">GitHub - Primer</a>
 				</div>
-				<div class="container">
-					<div class="column">
-						<p>Work</p>
-						<a class="link" href="https://github.com/hackworthltd/primer">GitHub - Primer</a>
-					</div>
-					<div class="column">
-						<p>Anime</p>
-						<a class="link" href="https://anilist.co/user/todorokmebaby/animelist">Anilist</a>
-						<a class="link" href="https://9anime.id/home">9Anime</a>
-						<a class="link" href="https://www.crunchyroll.com/en-gb">Crunchroll</a>
-					</div>
-					<div class="column">
-						<p>Other</p>
-					</div>
+				<div class="column">
+					<p>Anime</p>
+					<a class="link" href="https://anilist.co/user/todorokmebaby/animelist">Anilist</a>
+					<a class="link" href="https://9anime.id/home">9Anime</a>
+					<a class="link" href="https://www.crunchyroll.com/en-gb">Crunchroll</a>
+				</div>
+				<div class="column">
+					<p>Other</p>
+					<a class="link" href="https://www.speedtest.net">Speedtest</a>
 				</div>
 			</div>
+		</div>
 
-			<div id="date"></div>
+		<div id="date"></div>
 
-			<div id="toggle">
-				<span></span>
-				<span></span>
-			</div>
+		<div id="toggle">
+			<span></span>
+			<span></span>
+		</div>
 
 		<script src="./scripts/config.js"></script>
 		<script src="./scripts/darkmode.js"></script>
-	</body>
+</body>
+
 </html>
